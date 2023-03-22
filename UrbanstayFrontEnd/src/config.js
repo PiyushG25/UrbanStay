@@ -1,5 +1,5 @@
 const config = {
-  serverURL: "http://localhost:9090",
+  serverURL: "https://gorgeous-attack-production.up.railway.app",
 };
 
 export default config;
