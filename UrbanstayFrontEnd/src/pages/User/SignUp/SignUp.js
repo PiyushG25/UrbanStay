@@ -45,7 +45,7 @@ export default class SignUp extends Component {
       axios.post(config.serverURL+"/urbanstay/newuser",this.state).then(res=>{
            
 
-             alert("User Registered");
+           //  alert("User Registered");
             toast.success(`${this.state.email} Registered Successfully!`, {
               position: "top-center",
               autoClose: 1000,
@@ -270,6 +270,7 @@ export default class SignUp extends Component {
                 </h6>
             </form>
           </div>
+          <ToastContainer/>
             </>
 
         );
